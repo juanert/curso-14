@@ -116,6 +116,10 @@ ul li h2 {
   justify-content: center;
   /*align items eje secundario*/
   align-items: center;
+  background-image: url("./../images/student.png");
+  transition: padding 2s, background-color 3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
 }
 
 /*
@@ -144,6 +148,29 @@ a:link{
   color: aqua;
 }
 
+#padre p:first-child{
+  color: brown;
+}
+
+.input:focus{
+  outline: 5px solid blue;
+}
+
+p::first-letter{
+  color: chocolate;
+}
+
+p::first-line{
+  color: crimson;
+}
+
+p::before{
+  content: "Hola";
+}
+
+p::after{
+  content: "Adios"
+}
 /*
 Realiza una página para MOVISTAR
 la cual tiene que mostrar una barra de navegación
