@@ -34,3 +34,5 @@ getPokemon();
 
   Opcional: Crear una paginación para mostrar los pokemones de 20 en 20 hasta el final de la lista
 */
+
+
