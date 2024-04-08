@@ -1,0 +1,4 @@
+FROM node:lts-alpine3.19
+
+WORKDIR /curso-14/vite-react/my-app
+

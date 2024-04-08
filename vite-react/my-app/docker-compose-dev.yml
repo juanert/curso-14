@@ -1,0 +1,16 @@
+version: '3'
+services:
+  my-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      - NODE_ENV=development  
+    ports:
+      - "3000:3000"
+    links:
+      - my-app
+    volumes:
+      - .:/home/my-app
+
+
