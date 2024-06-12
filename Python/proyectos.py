@@ -21,6 +21,6 @@
 
   Opcional: Hacer de este programa un .exe para que pueda ser ejecutado en cualquier
   computadora.
-
+  
   Fecha de entrega: Viernes 03 de mayo del 2024
 """
