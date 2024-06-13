@@ -73,3 +73,10 @@ app.get('/productos/:id/comentarios', (req,res) => {
 app.listen(port, () => {
     console.log('Me ejecuto en el puerto ' + port);
 });
+
+/*
+  Ejercicio:
+  - Crear una ruta para obtener un producto por su nombre
+  - Crea  una ruta con una query para obtener los productos gratis
+  - Crea una ruta con una query para traer solo un limite de productos
+*/
